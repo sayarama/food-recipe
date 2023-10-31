@@ -1,3 +1,40 @@
-.main-box{
+.nav-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.hero-left h1 {
+    font-size: 4em;
+    font-family: 'Poppins';
+}
+
+.hero-input input {
+    border: none;
+    width: 100%;
+}
+
+.hero-input {
+    background-color: white;
+    padding: 12px;
+    width: 110%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero-right img {
+    width: 85%;
+}
+
+.background {
     background-color: #FFF5EC;
+}
+
+.orange-bar {
+    background-color: orange;
+    width: 500px;
+    height: 100vh;
 }
