@@ -1,5 +1,6 @@
 import React from 'react'
 import "../style/Navbar.css"
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -13,7 +14,9 @@ function Navbar() {
         </div>
         <div className="d-flex gap-5 right-navbar">
           <img src="" alt="" />
-          <a href="#">Login</a>
+          <Link to="/login">
+          <p>Login</p>
+          </Link>
         </div>
       </nav>
     </header>
