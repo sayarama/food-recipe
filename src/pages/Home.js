@@ -23,12 +23,6 @@ function Home() {
         </div>
     </nav>
     </div>
-
-    <div className='background'>
-        <div className='orange-bar'>
-
-        </div>
-    </div>
     </>
     
   )
