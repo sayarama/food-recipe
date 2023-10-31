@@ -4,10 +4,6 @@ html, body {
 }
 
 
-.container {
-    display: flex;
-}
-
 .left {
     width: 50%;
     height: 960px;
