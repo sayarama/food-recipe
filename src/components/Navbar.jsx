@@ -12,7 +12,7 @@ function Navbar() {
           <a href="#">Add Recipe</a>
           <a href="#">Profile</a>
         </div>
-        <div className="d-flex gap-5 right-navbar">
+        <div className="d-flex gap-5 align-items-center right-navbar">
           <img src="" alt="" />
           <Link to="/login">
           <p>Login</p>
