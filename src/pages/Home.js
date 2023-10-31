@@ -6,13 +6,14 @@ import "../style/Home.css"
 
 function Home() {
   return (
-    <div className='main-box'>
-        <Navbar/>
-        <section className='container hero'>
-
-        </section>
-        <Footer/>
-    </div>
+    <>
+    <Navbar/>
+    <nav className='nav-box'>
+        <div className='hero-left'>
+            
+        </div>
+    </nav>
+    </>
     
   )
 }
