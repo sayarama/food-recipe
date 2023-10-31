@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+tesnama:rama
+
+Tesnama2
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -69,6 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+<<<<<<< HEAD
 yaqintest
 test 2
 test 3
+=======
+#YONGKI SATRIA SANJAYA
+>>>>>>> 5ac3c98d2dc0437e48d459974aaae4c066a1d037
