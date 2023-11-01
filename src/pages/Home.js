@@ -72,6 +72,10 @@ function Home() {
         <span className='orange-vertical'></span>
         <p>Popular Recipe</p>
       </div>
+
+      <div className=''>
+        
+      </div>
     </div>
     </>
     
