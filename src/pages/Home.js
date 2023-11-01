@@ -8,6 +8,7 @@ import {BsSearch} from 'react-icons/bs'
 function Home() {
   return (
     <>
+    {/* Header Part */}
     <div className='main-box'>
     <Navbar/>
     <nav className='nav-box'>
@@ -23,6 +24,29 @@ function Home() {
         </div>
     </nav>
     </div>
+
+    {/* Popular */}
+    <section className='popular-box'>
+      <div className='title-head'>
+        <span className='orange-vertical'></span>
+        <p>Popular For You !</p>
+      </div>
+      <div className='popular-img'>
+        <img src='/images/pizza.png'/>
+        <img src='/images/kingburger.png'/>
+      </div>
+    </section>
+
+    {/* New Recipe */}
+    <section className='newrecipe-box'>
+    <div className='title-head'>
+        <span className='orange-vertical'></span>
+        <p>New Recipe !</p>
+    </div>
+    <div className='newrecipe-img'>
+      
+    </div>
+    </section>
     </>
     
   )
