@@ -133,3 +133,9 @@ hr {
 }
 
 /* Popular Recipe CSS */
+
+.popular-recipe{
+    background-color: #FFF5EC;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
