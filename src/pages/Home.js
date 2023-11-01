@@ -56,6 +56,7 @@ function Home() {
         </div>
         <div className='recipe-orange'>
         </div>
+        
       </div>
       <div className='recipe-right col-md-6'>
         <h1>Healthy Bone Broth <br/> Ramen (Quick&Easy)</h1>
@@ -66,7 +67,12 @@ function Home() {
     </div>
     </section>
     {/* Popular Recipe */}
-    
+    <div className='popular-recipe'>
+    <div className='title-head'>
+        <span className='orange-vertical'></span>
+        <p>Popular Recipe</p>
+      </div>
+    </div>
     </>
     
   )
