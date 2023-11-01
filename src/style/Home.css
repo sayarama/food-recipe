@@ -1,3 +1,13 @@
+*{
+    font-family: 'Poppins';
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header Css */
+
 .main-box{
     background-image: url(/public/images/background-hero.png);
     height: 100vh;
@@ -18,11 +28,12 @@
 .hero-input input {
     border: none;
     width: 100%;
+    outline: none;
 }
 
 .hero-input {
     background-color: white;
-    padding: 12px;
+    padding: 20px ;
     width: 110%;
     border-radius: 15px;
     display: flex;
@@ -32,4 +43,80 @@
 
 .hero-right img {
     width: 85%;
+}
+
+/* Popular Css */
+
+.popular-box{
+    background-color: #FFF5EC;
+}
+
+.title-head{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    margin-left: 6%;
+}
+
+.title-head p{
+    font-size:4em;
+}
+
+.orange-vertical{
+    background-color: #EFC81A;
+    width: 15px;
+}
+
+.popular-img{
+    display: flex;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.popular-img img{
+    width: 30%;
+}
+
+/* New Recipe CSS */
+
+.recipe-box{
+    background-color: #FFF5EC;
+    height: 90vh;
+}
+
+.recipe-img{
+    padding-top: 50px;
+}
+
+
+.recipe-left{
+    position: relative;
+}
+
+.recipe-orange{
+    background-color: #EFC81A;
+    width: 40%;
+    height: 600px;
+}
+
+.recipe-left-img img{
+   width: 60%;
+   position: absolute;
+   left: 15%;
+   top: 15%;
+}
+
+
+
+.recipe-right h1{
+    font-size: 4em;
+}
+
+.recipe-right p{
+    font-size: 1.2em;
+}
+
+hr {
+    width: 10%;
 }
