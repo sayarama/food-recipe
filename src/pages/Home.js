@@ -38,15 +38,29 @@ function Home() {
     </section>
 
     {/* New Recipe */}
-    <section className='newrecipe-box'>
+    <section className='recipe-box'>
     <div className='title-head'>
         <span className='orange-vertical'></span>
-        <p>New Recipe !</p>
+        <p>New Recipe</p>
     </div>
-    <div className='newrecipe-img'>
-      
+    <div className='recipe-img row align-items-center'>
+      <div className='recipe-left col-md-6'>
+      <div className='recipe-left-img'>
+          <img src='/images/onionburger.png'/>
+        </div>
+        <div className='recipe-orange'>
+        </div>
+      </div>
+      <div className='recipe-right col-md-6'>
+        <h1>Healthy Bone Broth <br/> Ramen (Quick&Easy)</h1>
+        <hr/>
+        <p>Quick + Easy Chicken Bone Broth Ramen- <br/> Healty chicken ramen in a hurry? That's right!</p>
+        <button type="button" className="btn btn-warning text-white">Learn More</button>
+      </div>
     </div>
     </section>
+    {/* Popular Recipe */}
+    
     </>
     
   )

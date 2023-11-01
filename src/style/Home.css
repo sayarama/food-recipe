@@ -1,3 +1,11 @@
+*{
+    font-family: 'Poppins';
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* Header Css */
 
 .main-box{
@@ -72,6 +80,43 @@
 
 /* New Recipe CSS */
 
-.newrecipe-box{
+.recipe-box{
     background-color: #FFF5EC;
+    height: 90vh;
+}
+
+.recipe-img{
+    padding-top: 50px;
+}
+
+
+.recipe-left{
+    position: relative;
+}
+
+.recipe-orange{
+    background-color: #EFC81A;
+    width: 40%;
+    height: 600px;
+}
+
+.recipe-left-img img{
+   width: 60%;
+   position: absolute;
+   left: 15%;
+   top: 15%;
+}
+
+
+
+.recipe-right h1{
+    font-size: 4em;
+}
+
+.recipe-right p{
+    font-size: 1.2em;
+}
+
+hr {
+    width: 10%;
 }
