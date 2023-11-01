@@ -74,8 +74,21 @@
     padding-bottom: 100px;
 }
 
-.popular-img img{
-    width: 30%;
+.inner-text{
+    position: relative;
+}
+
+.inner-text p{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.inner-text img{
+    width: 100%;
 }
 
 /* New Recipe CSS */
@@ -106,8 +119,6 @@
    left: 15%;
    top: 15%;
 }
-
-
 
 .recipe-right h1{
     font-size: 4em;

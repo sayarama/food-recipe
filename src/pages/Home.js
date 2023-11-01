@@ -32,8 +32,14 @@ function Home() {
         <p>Popular For You !</p>
       </div>
       <div className='popular-img'>
+        <div className='inner-text'>
+          <p>Pizza Lamoa</p>
         <img src='/images/pizza.png'/>
+        </div>
+        <div className='inner-text'>
+          <p>King Burger</p>
         <img src='/images/kingburger.png'/>
+        </div>
       </div>
     </section>
 
